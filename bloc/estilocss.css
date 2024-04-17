@@ -1,0 +1,112 @@
+	html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+/* estilo general del encabezado */
+header{
+    /*con este comando agrgamos una imagen de fondo 
+     background-image: url(./img/encabesado.png); */
+    background-image: url(/Proyecto2/img/encabesado.png);
+    /*background-repeat:no-repeat 
+    le indicamos que sólo muestre una sola vez la imagen */
+    background-repeat:no-repeat ;
+    background-position: right;
+    font-family: 'Courier New', Courier, monospace;
+    background-size: cover;     
+}
+/* estilo del (ul) para darle color al fondo  */
+header .indice_menu{
+    background: #bebdbd;
+    height: 5vh;
+    margin-left: 100vh;
+}
+header li{
+    /*list-style: none, lo utilisamos para 
+    eliminar los puntos de las listas */
+    list-style: none;
+    padding: 0.rem;
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;    
+}
+header a{
+    color:#f4f9fb;
+}
+.carrito{
+    width: 30px;
+    height: 50px;
+}
+.contenido{
+   border: 3px solid #7BDDF0;
+   margin: 55px;
+   width: 500px;
+   height: 300px;
+   display: flex;
+   flex-direction: row;   
+   padding: 1rem;
+   justify-content: first baseline;
+}
+.contenido :hover{
+    /* añade efectos de sombra alrededor del marco de un elemento*/
+    box-shadow: 0 10px 20px rgb(0, 0, 0.20);
+}
+.contenido h3{
+    color:#0c0c0c;
+}
+.contenido img{
+    margin-top: 50%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    border-top-left-radius: 50px;
+}
+.contenido:hover img{
+    transform: scale(1.5);
+}
+.botton-item{
+    background-color: #bebdbd;
+    color: black;
+    margin: 0%;
+    border: #19cc43;
+    width: 80px;
+    height: 80px;      
+    bottom: 50px;
+}
+main{
+    /* Usa la imagen indicada como fondo. */
+    background-image: url(img/main_image.png);
+    /*Establece una posición para la imagen de fondo, de modo que podemos moverla de sitio.  */
+    background-position: center;
+    /* Establece el modo en el que se repite la imagen de fondo de ser muy pequeña. */
+    background-repeat:no-repeat; 
+    /* Establece un tamaño diferente a la imagen de fondo. */
+    background-size: cover;
+    /*Indica si la imagen de fondo permanece fija o se desplaza al hacer scroll.  */
+    background-attachment: fixed;  
+}
+main div{
+    display: flex;
+    flex-direction:row ;
+}
+.button-login{
+    color: mediumblue;
+    background-color: rgb(243, 249, 240 );
+    margin-left: 80%;
+}
+footer{
+    background-color: rgb(208, 123, 240);
+    display: flex;
+    flex-direction: row;     
+}
+footer li{
+    display: inline;
+    list-style: none;
+    margin: 20px;
+}
+footer iframe{
+    margin-left: 80%;
+    width: 120px;
+    height: 120px;
+
+}
+@media screen {
+    
+}

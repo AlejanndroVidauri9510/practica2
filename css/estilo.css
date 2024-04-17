@@ -1,0 +1,81 @@
+header{
+    background-color: antiquewhite;
+    /*background-image nos sirve para agregar
+    una imagen de fondo  */
+    background-image: url(/Proyecto2/img/encabesado.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+    /* da el margen de todo centrado
+    el contorno */
+    /* margin: 5vh; */
+}
+
+/* <ul class="indice_menu"> le damos 
+el estilo al menu */
+.indice_menu{
+    display: flex;
+    flex-direction: line;
+    list-style: none;
+    font-size: 3rem;
+    padding: 40px;
+    margin: 5%;
+    font-family: 'Courier New', Courier, monospace;    
+    margin-left: 60%;
+   
+}
+.indice_menu a{
+    color: #0c0c0c ;
+    /* con el text-decoration
+    le quitamos las lineas a los links */
+    text-decoration: none;
+}
+header h1{  
+    font-style: initial;      
+}
+header a{
+    list-style: none;
+    /* le damos el espacio que hay entre las ligas */
+    margin-left: 15px;
+}
+header img{
+    
+    margin-bottom: 220%;
+    height: 150px;        
+    width: 150px;
+}
+.carrito{
+    height: 10vh;
+    /* movemos de posicion de la 
+    imagen del carrito */
+    margin-top: -35vh;
+    margin-left: 150vh;
+}
+main{
+    background: #EF5CEA ;
+}
+main div{
+    display: flex;
+    flex-direction: row;   
+}
+.contenido{
+    
+    border: 3px solid #0c0c0c;
+    margin-top: 10%;
+    margin-left: 10%;    
+    background-color: var(--primarioOscuro);    
+}
+footer{
+    background-color: rgb(208, 123, 240);
+    display: flex;
+    flex-direction: row;     
+}
+footer li{
+    display:inline;
+    list-style: none;
+    margin: 20px;
+}
+
+
+@media screen {
+    
+}
